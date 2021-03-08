@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="./_tab.css">
+</head>
+
+<body>
+
+  <div class="tab" id="js-tab">
+
+    <div class="tab_nav">
+      <a href="" class="tab_nav_item is-active" data-nav="0">Tab_0</a><!-- データ属性「data-」は、classやid以外の属性を作れる -->
+      <a href="" class="tab_nav_item" data-nav="1">Tab_1</a>
+      <a href="" class="tab_nav_item" data-nav="2">Tab_2</a>
+      <a href="" class="tab_nav_item" data-nav="3">and Free</a>
+    </div>
+
+    <div class="tab_contents">
+      <div class="tab_contents_item" data-content="0">タブ0の中</div><!-- ここにも「data-」で、自作属性を作っている -->
+      <div class="tab_contents_item" data-content="1">タブ1の中</div>
+      <div class="tab_contents_item" data-content="2">タブ2の中</div>
+      <div class="tab_contents_item" data-content="3">※自由に追加可能</div>
+    </div>
+
+  </div>
+
+
+  <script type="text/javascript" src="./_tab.js"></script>
+</body>
+</html>
